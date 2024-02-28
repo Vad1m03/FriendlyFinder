@@ -1,0 +1,64 @@
+/* reset.css */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/assets/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('../src/assets/fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+        url('../src/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/assets/fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+        url('../src/assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+.title__1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.title__2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title__3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+* {
+    box-sizing: border-box;
+}
